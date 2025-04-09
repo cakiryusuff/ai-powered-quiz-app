@@ -2,12 +2,9 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_core.documents.base import Document
 from dotenv import load_dotenv
 from pydantic_ai import Agent, RunContext
-from typing import Annotated
-from annotated_types import Len
 from dataclasses import dataclass
-from pydantic import BaseModel, Field
+from pydantic import Field
 from pathlib import Path
-import gradio as gr
 from quiz_class import Quizzes
 from rich.prompt import Prompt
 load_dotenv()

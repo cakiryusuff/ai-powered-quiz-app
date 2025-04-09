@@ -1,8 +1,5 @@
 import streamlit as st
-from pathlib import Path
 from pydantic import BaseModel, Field
-from typing import Annotated
-from annotated_types import Ge, Le
 from quiz_class import load_quiz
 from pydantic_ai import Agent, RunContext
 from dataclasses import dataclass
