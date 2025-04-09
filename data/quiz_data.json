@@ -1,0 +1,46 @@
+{
+    "classic_questions": [
+        {
+            "question_text": "What is machine learning, and how is it related to artificial intelligence?",
+            "correct_answer": "Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed."
+        },
+        {
+            "question_text": "What are the components involved in machine learning applications?",
+            "correct_answer": "Algorithms, datasets, and mathematical models are key components in machine learning applications."
+        },
+        {
+            "question_text": "What was the significance of Arthur Lee Samuel's work in 1959 related to machine learning?",
+            "correct_answer": "Arthur Lee Samuel introduced the term 'machine learning' while developing a checkers game program for IBM."
+        }
+    ],
+    "multiple_choice_questions": [
+        {
+            "question_text": "Which type of learning involves labeled data to train the system?",
+            "choices": [
+                "Unsupervised Learning",
+                "Supervised Learning",
+                "Semi-supervised Learning",
+                "Reinforcement Learning",
+                "None of the above"
+            ],
+            "correct_answer": "Supervised Learning"
+        },
+        {
+            "question_text": "What is a primary use of unsupervised learning?",
+            "choices": [
+                "To predict outcomes based on labeled data",
+                "To discover hidden patterns in unlabeled data",
+                "To train models with minimal data",
+                "To enhance supervised learning",
+                "None of the above"
+            ],
+            "correct_answer": "To discover hidden patterns in unlabeled data"
+        }
+    ],
+    "fill_in_the_blank": [
+        {
+            "question_text": "The given machine learning group that combines both labeled and unlabeled data is called _________.",
+            "correct_answer": "Semi-supervised Learning"
+        }
+    ]
+}
