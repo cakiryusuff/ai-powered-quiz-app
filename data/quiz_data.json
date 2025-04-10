@@ -1,46 +1,99 @@
 {
     "classic_questions": [
         {
-            "question_text": "What is machine learning, and how is it related to artificial intelligence?",
-            "correct_answer": "Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed."
+            "question_text": "What is machine learning and how is it related to artificial intelligence?",
+            "correct_answer": "Machine learning is a subset of artificial intelligence that focuses on allowing computers to learn from data without being explicitly programmed."
         },
         {
-            "question_text": "What are the components involved in machine learning applications?",
-            "correct_answer": "Algorithms, datasets, and mathematical models are key components in machine learning applications."
+            "question_text": "What is the significance of data in machine learning applications?",
+            "correct_answer": "Data is crucial in machine learning applications because the more data that is available, the more accurate the results can be."
         },
         {
-            "question_text": "What was the significance of Arthur Lee Samuel's work in 1959 related to machine learning?",
-            "correct_answer": "Arthur Lee Samuel introduced the term 'machine learning' while developing a checkers game program for IBM."
+            "question_text": "What are the main categories of machine learning?",
+            "correct_answer": "The main categories of machine learning are supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
+        },
+        {
+            "question_text": "Describe the concept of supervised learning in machine learning.",
+            "correct_answer": "Supervised learning is a type of machine learning where the algorithm is trained on labeled data, meaning each training example is associated with an output label."
+        },
+        {
+            "question_text": "What historical milestone is associated with Arthur Lee Samuel in the context of machine learning?",
+            "correct_answer": "Arthur Lee Samuel coined the term 'machine learning' while developing a checkers game for IBM in 1959."
         }
     ],
     "multiple_choice_questions": [
         {
-            "question_text": "Which type of learning involves labeled data to train the system?",
+            "question_text": "Which of the following is NOT a category of machine learning?",
             "choices": [
-                "Unsupervised Learning",
                 "Supervised Learning",
-                "Semi-supervised Learning",
                 "Reinforcement Learning",
-                "None of the above"
+                "Automated Learning",
+                "Unsupervised Learning",
+                "Semi-supervised Learning"
             ],
-            "correct_answer": "Supervised Learning"
+            "correct_answer": "Automated Learning"
         },
         {
-            "question_text": "What is a primary use of unsupervised learning?",
+            "question_text": "What is a common application of unsupervised learning?",
             "choices": [
-                "To predict outcomes based on labeled data",
-                "To discover hidden patterns in unlabeled data",
-                "To train models with minimal data",
-                "To enhance supervised learning",
-                "None of the above"
+                "Spam detection in emails",
+                "Customer segmentation",
+                "Predicting house prices",
+                "Credit scoring",
+                "Market basket analysis"
             ],
-            "correct_answer": "To discover hidden patterns in unlabeled data"
+            "correct_answer": "Customer segmentation"
+        },
+        {
+            "question_text": "Which machine learning platform is developed by Google?",
+            "choices": [
+                "Amazon ML",
+                "TensorFlow",
+                "IBM Watson",
+                "Microsoft Azure ML",
+                "BigML"
+            ],
+            "correct_answer": "TensorFlow"
+        },
+        {
+            "question_text": "What is the purpose of semi-supervised learning?",
+            "choices": [
+                "To use only labeled data",
+                "To combine labeled and unlabeled data for training",
+                "To operate without any data",
+                "To train using only unlabeled data",
+                "To limit data usage in training"
+            ],
+            "correct_answer": "To combine labeled and unlabeled data for training"
+        },
+        {
+            "question_text": "What type of learning does a recommendation system typically use?",
+            "choices": [
+                "Supervised Learning",
+                "Reinforcement Learning",
+                "Unsupervised Learning",
+                "Semi-supervised Learning",
+                "Active Learning"
+            ],
+            "correct_answer": "Unsupervised Learning"
         }
     ],
     "fill_in_the_blank": [
         {
-            "question_text": "The given machine learning group that combines both labeled and unlabeled data is called _________.",
-            "correct_answer": "Semi-supervised Learning"
+            "question_text": "Machine learning is often referred to as a subfield of __________.",
+            "correct_answer": "artificial intelligence"
+        },
+        {
+            "question_text": "In machine learning, __________ data is used to train algorithms in supervised learning.",
+            "correct_answer": "labeled"
+        },
+        {
+            "question_text": "The algorithm that learns from data patterns without supervision is called __________ learning.",
+            "correct_answer": "unsupervised"
+        },
+        {
+            "question_text": "The process of classifying emails as spam or not spam is an example of __________ learning.",
+            "correct_answer": "supervised"
         }
     ]
 }
