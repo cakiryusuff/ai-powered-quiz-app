@@ -4,7 +4,7 @@ This is an AI-powered quiz application developed using **Streamlit**, **Pydantic
 
 ## Features
 
-- **Dynamic Question Generation**: AI agents generate questions from a given text (e.g., a PDF, document, or any input text). The questions include multiple-choice, fill-in-the-blank, and classic question types.
+- **Dynamic Question Generation**: AI agents generate questions from a given text (e.g., a PDF). The questions include multiple-choice, fill-in-the-blank, and classic question types.
 
 - **AI-Powered Scoring**: The user's answers are evaluated using **Pydantic AI agents**, which compare the user's response to the correct answer and provide a score out of 10. The comparison allows partial credit for close answers, especially for non-numeric or non-factual responses.
 
@@ -59,6 +59,13 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your-api-key-here
 ```
 ### Step 5: Run the Application
+First you should run generate_questions for questions
+
+```bash
+python generate_questions.py
+```
+
+after that,
 
 ```bash
 streamlit run app.py
