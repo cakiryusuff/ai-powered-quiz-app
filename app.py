@@ -98,7 +98,6 @@ if st.button("Submit") and user_answer:
     user = user_answer.strip().lower()
 
     if q_type in ["classic", "fitb"]:
-        print(score_list[st.session_state.index])
         deps = ComparisonDependencies(question=q.question_text, correct_answer=correct, user_answer=user, score_limit=score_list[st.session_state.index])
         result = comparison_agent.run_sync("Compare correct and user answers", deps=deps)
         score_to_add = result.data.score

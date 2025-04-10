@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import Annotated
 from annotated_types import Len
 
-quiz_path = Path("quiz_generator/data/quiz_data.json")
+quiz_path = Path("data/quiz_data.json")
 
 class MCQ(BaseModel):
     question_text: str

@@ -11,7 +11,7 @@ from rich.prompt import Prompt
 load_dotenv()
 
 def main():
-    document_loader = PyPDFDirectoryLoader("quiz_generator/data")
+    document_loader = PyPDFDirectoryLoader("data")
     text = document_loader.load()
 
     @dataclass
@@ -43,7 +43,7 @@ def main():
     deps = GenerateQuizDeps(text=text, count_of_questions=answer)
     result = agent.run_sync('Generate questions about given text', deps=deps)
 
-    quiz_path = Path("quiz_generator/data/quiz_data.json")
+    quiz_path = Path("data/quiz_data.json")
     quiz_path.write_text(result.data.model_dump_json(indent=4), encoding="utf-8")
 
     print(f"Quiz has been generated and saved to {quiz_path}")
