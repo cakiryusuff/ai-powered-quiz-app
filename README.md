@@ -2,6 +2,8 @@
 
 This is an AI-powered quiz application developed using **Streamlit**, **Pydantic AI agents**, and **Pydantic**. The app dynamically generates questions based on a given quiz text and evaluates user answers in real-time. The answers are compared using AI-powered agents that provide feedback and scoring.
 
+![](https://github.com/cakiryusuff/AI-Powered-Quiz-App/blob/main/readme_sources/projectvideo.gif)
+
 ## Features
 
 - **Dynamic Question Generation**: AI agents generate questions from a given text (e.g., a PDF). The questions include multiple-choice, fill-in-the-blank, and classic question types.
